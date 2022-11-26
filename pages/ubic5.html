@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+<meta charset="UTF-8">
+<!---tipos de letras-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap" rel="stylesheet">
+
+<title>Cafeteria Eco</title>
+</head>
+<body class="fondopagina">
+    <header>
+        <h1 class="header_titulo">Cafeteria Eco</h1>
+    </header>
+    <nav id="nav">
+        <ul >
+         <li class="nav_li"> <a class="nav_link" href="../index.html">Inicio</a></li>
+         <li class="nav_li"> <a class="nav_link" href="./event2.html">Eventos</a></li>
+         <li class="nav_li"><a class="nav_link" href="./nosotrs.html">Nosotros</a></li>
+         <li class="nav_li"><a class="nav_link" href="./reservs.html">Servicios</a></li>
+         <li class="nav_li"><a class="nav_link"  href="./ubic5.html">Ubicacion</a></li>
+          </ul>
+    </nav>
+        <main>
+            <section class="formularioUbic">
+              <form action="../index.html" method="post" enctype="multipart/form-data">
+                 <fieldset class="formularioUbic">
+                     <legend>TRABAJA CON NOSOTROS</legend>
+                     <div>
+                        <label for="nombre">nombre</label>
+                        <input type="text" name="nombre">
+                     </div>
+                     <div>
+                       <label for="apellido">apellido</label>
+                       <input type="text" name="apellido">
+                     </div>
+                     <div>
+                       <label for="email">email</label>
+                       <input type="email" name="email">
+                     </div>
+                     <div> 
+                       <label for="archivo"> Subir CV</label>
+                       <input type="file"  value="archivo" accept="image">
+                     </div>
+                     <div>
+                       <input type="submit" value="Enviar">
+                       <input type="reset" value="limpiar">
+                     </div>
+                 </fieldset>
+              </form>
+            </section>
+            <form action="../index.html" method="post" enctype="multipart/form-data">
+                <fieldset class="comentario">
+                    <legend class="comentario_legend">Dejanos un comentario sobre el servicio</legend>
+                    <textarea value="comentario" rows="11" cols="40">texto..</textarea>
+                </fieldset> 
+            </form>
+            <section class="mapa">
+             <div class="mapa">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d851.6410547044712!2d-64.23162783831235!3d-31.371002619055368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1664509910214!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+           </section>
+           <footer class="footer">
+              <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Medios de pago</li>
+                <li>Todos los derechos reservados</li>
+             </ul>
+          </footer>
+        </main>  
+     </body>
+ </html>

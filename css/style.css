@@ -1,0 +1,274 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Fredoka', sans-serif;
+ 
+  
+    
+    
+}
+/* menu principal*/
+
+.fondopaginaIn{
+   background-image: url(../img/cafeteria1.jpg);
+   background-position: top center;
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
+.fondopagina{
+   background-image: url(../img/cafeteria2.jpg);
+   background-position: top center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.header_titulo{
+    font-style:italic;  
+    font-weight: lighter;
+    font-size: 70px;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(235, 228, 214);
+    text-align: center;
+}
+
+
+#nav{
+    font-weight:bold;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+
+ }
+ 
+.nav_link{
+    text-decoration:none; 
+    color: rgba(21, 107, 3, 0.94);
+    display: block;
+    padding: 10px 10px;
+   
+ }
+
+ .nav_li{
+     display: inline-block;
+     width: auto;
+     border-right: 2px dotted white;
+    
+ }
+
+ .formulario{
+   height: 300px;
+   width: 300px;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+   color: rgb(235, 228, 214);
+   
+ }
+
+ .fieldset{
+   padding: 30px 20px;
+   border-radius: 10px;
+   position: relative;
+   top: 150px;
+   left: 30px;
+
+ }
+
+ .fieldset:hover{
+   background-color:  rgba(151, 88, 16, 0.779);
+ }
+
+ .fieldset_fecha{
+   text-align: center;
+   color:salmon
+ }
+
+ /*eventos*/
+.ferias{
+   background-color: rgba(189, 76, 241, 0.655);
+   border-radius: 4px;
+   border: 2px solid black;
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   padding-top: 80px;
+   margin-left: 90px;
+   position: relative;
+   top: 350px;
+}
+
+.cursos{
+   background-color: rgba(76, 216, 241, 0.655);
+   border-radius: 4px;
+   border: 2px solid black;
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   padding-top: 80px;
+   position: relative;
+   left: 500px;
+   bottom: 40px;
+}
+
+.degustaciones{
+   background-color: rgba(211, 230, 37, 0.668);
+   border-radius: 4px;
+   border: 2px solid black;
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   padding-top: 80px;
+   position: relative;
+   left: 900px;
+   bottom:360px;
+}
+/*nosotros*/
+
+.header_imagen{
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   right: 900px;
+   top: 10px;
+   border-radius: 2px;
+
+}
+
+.main_imgtienda{
+   height: 500px;
+   width: 600px;
+   border-radius: 6px;
+   margin-left: 90px;
+}
+
+.texto{
+   display: inline-block;
+   background-color: rgba(93, 58, 6, 0.686);
+   height: 300px;
+   width: 400px;
+   position: relative;
+   left: 100px;
+   bottom: 200px;
+   border-radius: 4px;
+}
+
+/*servicios*/
+.section{
+   background-color: beige;
+   border: 3px solid brown;
+   border-radius: 8px;
+   height: 400px;
+   width: 700px;
+   text-align: center;
+   margin-left: 100px;
+   padding: 30px 30px;
+   position: relative;
+   top: 100px;
+}
+
+.section h2{
+   color: orangered;
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 30px;
+   text-decoration: underline;
+}
+
+.section_workCoffe{
+   padding-bottom: 5px;
+}
+
+.section_Brunch{
+   padding-bottom: 5px;
+}
+.section_Brunch p{
+   font-style:italic;  
+    font-weight: bolder;
+    
+   
+}
+
+.section_Brunch ul{
+   list-style-type: circle;
+   text-align:start;
+
+}
+
+.Reservas{
+   height: 200px;
+   width: 300px;
+   text-align: center;
+   position: relative;
+    left: 900px;
+    bottom: 200px;
+    background-color: rgba(226, 21, 21, 0.479);
+}
+
+.Reservas_letra{
+   font-family:'Shadows Into Light', cursive;
+   color: rgb(3, 76, 3);
+   font-weight: bolder;
+}
+
+.Reservas:hover{
+   background-color: rgba(131, 133, 11, 0.616);
+
+}
+
+
+
+
+/*ubicacion*/
+
+
+.formularioUbic{
+   padding: 40px 30px;
+   border-radius: 10px;
+   height: 300px;
+   width: 300px;
+   font-weight: bold;
+   font-style:normal;
+   color: rgba(117, 62, 4, 0.97);
+   margin-left: 40px;
+
+}
+
+.comentario{
+   height: 200px;
+   width: 300px;
+   position: relative;
+   top:70px;
+   color: rgba(36, 21, 7, 0.97);
+   margin-left: 130px;
+}
+
+.comentario_legend{
+   background-color: rgba(248, 182, 28, 0.464);
+}
+
+.mapa{
+   position: relative;
+    left: 240px;
+    bottom: 150px;
+   width: 500px;
+   height: 500px;
+   border-radius: 20px;
+}
+
+
+
+/*footer*/
+.footer{
+   background-color: rgba(229, 134, 11, 0.772);
+   
+}
+.footer ul{
+   list-style: none;
+   text-align: center;
+}
+.footer li{
+   display: inline-block;
+   padding: 20px 20px;
+   
+}
