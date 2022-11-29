@@ -57,13 +57,11 @@
   <section>
     <img class="principal__foto" src="./img/imgenprincipal.jpg" alt="imagen cafetera">
   </section>
-  <section>
+  <section class="formulario">
     <div class="container-fluid">
-      <div class="principal__info row g-4">
-        <div class="col-12 col-md-6">
-          <form class="principal__formulario">
+          <form class="formulario__cuerpo">
             <fieldset>
-              <legend class="principal__formulario__titulo">RESERVAS WORK AND COFFE</legend>
+              <legend class="formulario__cuerpo__titulo">RESERVAS WORK AND COFFE</legend>
               <div>
                 <label for="">Nombre</label>
                 <input type="text">
@@ -84,24 +82,40 @@
               </div>
             </fieldset>
           </form>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="principal__horarios">
-            <h2>Horario de Apertura y Cierre </h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, enim. </p>
-            <p>Lunes a viernes de 8hs a 22hs </p>
-            <p>sabados y domingos de 9hs a 17hs</p>
-          </div>
-        </div>
-      </div>
+    </div>
     </section>
+    <section class="NosotrosInformacion">
    <div class="nosotros">
-     <img class="img__nosotros" src="./img/imagenNosotros.jpg" alt="fachadaprincipal">
-      <div class="nosotros__titulo">
-          <h2 class=" text-center">nosotros</h2>
-          <p class="nosotros__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, molestias.</p>
+     <div class="nosotros__info">
+      <div class="nosotros__info__tarjeta">
+        <div class="nosotros__info__tarjeta__adelante">
+           <h2>nosotros</h2>
         </div>
+        <div class="nosotros__info__tarjeta__atras">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi adipisci nam delectus alias quis iure pariatur maxime in corrupti dolor.</p>
+        </div>
+
+      </div>
+     </div>
    </div>
+   <div class="nosotros">
+    <div class="nosotros__info">
+     <div class="nosotros__info__tarjeta">
+       <div class="nosotros__info__tarjeta__adelante  AdelanteImg">
+          <h2>Horarios</h2>
+       </div>
+       <div class="nosotros__info__tarjeta__atras">
+         <p>Lunes a viernes de 8-22 </p>
+         <p>Sabados y domingos de 7-15hs</p>
+       </div>
+
+     </div>
+    </div>
+    
+  </div>
+    </section>
+
+   <!--         /* carrousel */ -->
    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -110,38 +124,96 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <div class="card" style="width: 18rem;">
-          <img src="./img/cafeteria1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+        <article class="card">
+          <div class="card_img">
+              <img src="./img/calzasublimada.jpg" class="card-img-top" alt="...">
           </div>
-        </div>
+          <div class="card-body">
+              <h5 class="card-title">$8499</h5>
+              <p class="card-text">Calza Sublimada</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+      </article>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <div class="card" style="width: 18rem;">
-          <img src="./img/cafeteria1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+        <article class="card">
+          <div class="card_img">
+              <img src="./img/calzasublimada.jpg" class="card-img-top" alt="...">
           </div>
-        </div>
+          <div class="card-body">
+              <h5 class="card-title">$8499</h5>
+              <p class="card-text">Calza Sublimada</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+      </article>
       </div>
       <div class="carousel-item">
-        <div class="card" style="width: 18rem;">
-          <img src="./img/cafeteria1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-          </div>
-        </div>
+        <article class="card">
+                    <div class="card_img">
+                        <img src="./img/calzasublimada.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">$8499</h5>
+                        <p class="card-text">Calza Sublimada</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </article>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
+      <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
+      <span class="visually-hidden">Next</span>
     </button>
+  </div>
+   <!--footer-->
+   <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>© 2021 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
   </div>
   <!--bstrp y wow-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
