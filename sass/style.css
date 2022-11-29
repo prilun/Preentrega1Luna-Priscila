@@ -1,4 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .principal__foto {
   width: 100%;
   height: auto;
+}
+
+.nosotroswrap {
+  width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta-wrap {
+  margin: 10px;
+  perspective: 700;
+}
+
+.tarjeta-wrap:hover .tarjeta {
+  transform: rotateY(180deg);
+}
+
+.tarjeta {
+  width: 300px;
+  height: 350px;
+  background-color: pink;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 0.7s ease;
+  box-shadow: 0px 10px 15px 10px black;
+}
+
+.adelante, .atras {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.adelante {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.card {
+  background-image: url(../img/fondonoso.jpg);
+  background-size: cover;
+}
+
+.atras {
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
 }/*# sourceMappingURL=style.css.map */
