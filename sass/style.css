@@ -1,4 +1,18 @@
 .principal__foto {
   width: 100%;
   height: auto;
+}
+
+.img__nosotros {
+  width: 50%;
+  height: auto;
+}
+
+.principal__info {
+  margin-top: 1rem;
+}
+
+.nosotros {
+  display: flex;
+  background-color: aquamarine;
 }/*# sourceMappingURL=style.css.map */
