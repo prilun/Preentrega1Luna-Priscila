@@ -35,4 +35,39 @@
 
 .informacion {
   margin-top: 4rem;
+}
+
+/*carousel*/
+.carousel {
+  margin-top: 5rem;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 360px;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .principal__foto {
+    height: auto;
+  }
+  .NosotrosInformacion {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .nosotros {
+    margin: 0;
+  }
+  .carousel {
+    display: none;
+  }
+  .nosotros__info__tarjeta {
+    width: auto;
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
