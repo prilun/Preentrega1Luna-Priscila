@@ -22,13 +22,8 @@
   <!--WOW-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <!---tipos de letras-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&amp;family=Overpass:wght@200&amp;display=swap"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=New+Tegomin&display=swap" rel="stylesheet">
 </head>
-
 <body>
   <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -85,16 +80,19 @@
               <label class="fieldset_fecha" for="data">Seleccione dia y horario</label>
               <input type="datetime-local" name="data">
             </div>
-            <div>
-              <input type="submit" value="Enviar">
-              <input type="reset" value="Limpiar">
-            </div>
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+              <input type="submit" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+              <label class="btn btn-outline-dark btn-light" for="btnradio1">Enviar</label>
+            
+              <input type="reset" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+              <label class="btn btn-outline-dark btn-light" for="btnradio2">Limpiar</label>
+          
           </fieldset>
       </div>
     </div>
     <div class="row informacion gy-2">
       <div class=" animate__animated animate__fadeInLeftBig col-12 col-md-6">
-        <img class=" horarios" src="./img/restaurant-gf176213b8_1920.jpg">
+        <img class=" horarios" src="./img/rain-gde57367f4_1920.jpg">
       </div>
       <div class="animate__animated animate__animated animate__fadeInRightBig  col-12 col-md-6">
         <p class="parrafo">horarios habituales </p>
@@ -105,7 +103,7 @@
         <p class="parrafo">Nosotros</p>
       </div>
       <div class=" animate__animated animate__animated animate__fadeInRightBig col-12 col-md-6">
-        <img class="horarios" src="./img/rain-gde57367f4_1920.jpg">
+        <img class="horarios" src="./img/imagenNosotros.jpg">
       </div>
     </div>
 

@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 768px){
+
+    .principal__foto{
+      height: auto;
+    }
+    .NosotrosInformacion{
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+  
+    }
+    .nosotros{
+      margin: 0;
+    }
+  
+   
+   
+   .nosotros__info__tarjeta{
+    width: auto;
+        height: auto;
+   }
+   .Menu{
+    flex-direction: column;
+   }
+  }

@@ -1,0 +1,73 @@
+
+
+
+.principal__foto{
+    width: 100%;
+    height: 600px;
+    
+  }
+    
+  .horarios{
+    height: 100%;
+    width:100%;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+  
+  .texto{
+    background-color: black;
+    border-radius: 4px;
+  }
+  
+  .parrafo{
+    
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 100%;
+  }
+  
+  .formulario{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  
+  .informacion{
+    margin-top: 4rem;
+    
+  }
+  
+  
+  /*carousel*/
+  
+  .carousel{
+  margin-top: 5rem;
+  }
+  .card{
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 360px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  body{
+    min-height: 100%;
+  }
+  
+  
+
+  .parrafo{
+    font-family: 'Ibarra Real Nova', serif;
+  }
+
+  .principal__formulario{
+    background-color: black;
+    color: white;
+    font-family: 'New Tegomin', serif;
+  }

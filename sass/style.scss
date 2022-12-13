@@ -1,111 +1,16 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.principal__foto{
-  width: 100%;
-  height: 600px;
-}
-  
-.horarios{
-  height: 100%;
-  width:100%;
-  border-radius: 4px;
-}
+@import "./componentes/reset";
+@import "./componentes/variables";
+@import "./componentes/flex";
 
-.texto{
-  background-color: black;
-  border-radius: 4px;
-}
+/*paginas*/
 
-.parrafo{
-  
-  padding-top: 5rem;
-  text-align: center;
-  font-size: 1.5rem;
-  height: 100%;
-}
+@import "./componentes/estilos/index";
+@import "./componentes/estilos/menu";
+@import "./componentes/estilos/reservas";
+@import "./componentes/estilos/eventos";
+@import "./componentes/estilos/contactos";
 
-.formulario{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  text-align: center;
-}
-
-.informacion{
-  margin-top: 4rem;
-  
-}
+/*queri*/
+@import "./componentes/queri";
 
 
-/*carousel*/
-
-.carousel{
-margin-top: 5rem;
-}
-.card{
-
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  height: 360px;
-  /* margin-top: 10px; */
-  margin-bottom: 10px;
-}
-
-
-@media screen and (max-width: 768px){
-
-  .principal__foto{
-    height: auto;
-  }
-  .NosotrosInformacion{
-    flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
-
-  }
-  .nosotros{
-    margin: 0;
-  }
-
-  .carousel{
-    display: none;
-  }
- .nosotros__info__tarjeta{
-  width: auto;
-      height: auto;
- }
- .Menu{
-  flex-direction: column;
- }
-}
-
-.fondoMenu{
-  background-image: url(../img/imagenmenu.jpg);
-  background-size: cover;
-  background-position:center;
-  background-repeat: no-repeat;
-}
-
-body{
-  min-height: 100%;
-}
-
-.Menu{
- 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 3rem;
-  background-color: rgba(127, 255, 212, 0.249);
-}
-
-.menuFooter{
-  background-color: white;
-}
-
-.header_titulo{
-  margin-top: 5rem;
-}
