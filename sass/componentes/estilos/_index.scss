@@ -1,19 +1,74 @@
 
-
-
 .principal__foto{
     width: 100%;
     height: 600px;
     
   }
-    
-  .horarios{
+
+  .indexFormulario{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    &__legend{
+      text-transform: uppercase;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      background-color: rgba(165, 42, 42, 0.304);
+    }
+    &__nombre{
+      font-size: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    &__apellido{
+      @extend .indexFormulario__nombre;
+    }
+    &__email{
+      @extend .indexFormulario__nombre;
+    }
+    &__calendario{
+      @extend .indexFormulario__nombre;
+    }
+  }
+  
+  .informacion{
+  &__imagen{
     height: 100%;
     width:100%;
     border-radius: 4px;
     border: 2px solid black;
   }
-  
+  &__titulo{
+    font-family: 'New Tegomin', serif;
+    text-align: center;
+  }
+  &__parrafo{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: bold;
+  }
+}
+
+.nosotros{
+  &__titulo{
+    @extend .informacion__titulo;
+    padding-top: 1rem;
+  }
+  &__parrafo{
+     font-family: 'Ibarra Real Nova', serif;
+     text-align: center;
+     font-weight: bold;
+  }
+}
+
+.carousel img{
+ height: 14rem;
+}
+
+
   .texto{
     background-color: black;
     border-radius: 4px;
@@ -27,11 +82,7 @@
     height: 100%;
   }
   
-  .formulario{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    text-align: center;
-  }
+ 
   
   .informacion{
     margin-top: 4rem;
@@ -66,8 +117,4 @@
     font-family: 'Ibarra Real Nova', serif;
   }
 
-  .principal__formulario{
-    background-color: black;
-    color: white;
-    font-family: 'New Tegomin', serif;
-  }
+ 

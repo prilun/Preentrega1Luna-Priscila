@@ -28,7 +28,7 @@
   <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand " href="#">
-        <img src="./img/Coffee-PNG-Isolated-Picture.png" alt="" width="40" height="40">
+        <img src="./img/Coffee-PNG-Isolated-Picture.png" alt="logo cafeteria" width="40" height="40">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,22 +61,24 @@
       alt="imagen cafetera">
   </section>
   <div class="container">
-    <div class="row  formulario gy-2">
+    <div class="row gy-2">
       <div class="col-12 col-md-12">
-        <form class=" principal__formulario">
-          <fieldset class="fieldset">
-            <legend>RESERVAS WORK AND COFFE</legend>
-            <div>
-              <label for="">Nombre</label>
-              <input type="text">
+        <form class="indexFormulario">
+          <fieldset>
+            <legend class="indexFormulario__legend">reservas de work and coffe</legend>
+            <div class="indexFormulario__nombre"> 
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre">
             </div>
-            <div>
-              <label for="">Apellido</label>
-              <input type="text">
+            <div class="indexFormulario__apellido">
+              <label for="apellido">Apellido</label>
+              <input type="text" name="apellido">
             </div>
-            <label for="email">e - mail</label>
-            <input type="email" name="email">
-            <div>
+            <div class="indexFormulario__email">
+             <label for="email">e - mail</label>
+             <input type="email" name="email">
+            </div>
+            <div class="indexFormulario__calendario">
               <label class="fieldset_fecha" for="data">Seleccione dia y horario</label>
               <input type="datetime-local" name="data">
             </div>
@@ -92,64 +94,58 @@
     </div>
     <div class="row informacion gy-2">
       <div class=" animate__animated animate__fadeInLeftBig col-12 col-md-6">
-        <img class=" horarios" src="./img/rain-gde57367f4_1920.jpg">
+        <img class="informacion__imagen" src="./img/rain-gde57367f4_1920.jpg" alt="imagen sillas al costado del rio ">
       </div>
       <div class="animate__animated animate__animated animate__fadeInRightBig  col-12 col-md-6">
-        <p class="parrafo">horarios habituales </p>
+        <h2 class="informacion__titulo">Horario de Apertura y Cierre </h2>
+                <p class="informacion__parrafo">Los esperamos en los siguienes horarios </p>
+                <p class="informacion__parrafo">Lunes a viernes de 8hs a 22hs </p>
+                <p class="informacion__parrafo">sabados y domingos de 9hs a 17hs</p>
       </div>
     </div>
-    <div class="row informacion gy-2">
+    <div class="nosotros row gy-2">
       <div class=" animate__animated animate__fadeInLeftBig  col-12 col-md-6">
-        <p class="parrafo">Nosotros</p>
+        <h2 class="nosotros__titulo">Nosotros</h2>
+        <p class="nosotros__parrafo">Nuestra pequeña cafeteria nacio por el año 1900 en una esquina parisiana, en donde los primeros dueños llenos de vigor y aventura consigieron ergir una de las primeras cafeterias de Paris con especialidades de la propia italia acompañados de un cafe turno, los invitamos a sentarse en nuestras mesas y disfrutar de una rica pastelera acompañados de un libro o porque no de un ser querido mientras observan el hermoso lago siena </p>
       </div>
       <div class=" animate__animated animate__animated animate__fadeInRightBig col-12 col-md-6">
-        <img class="horarios" src="./img/imagenNosotros.jpg">
+        <img class="informacion__imagen" src="./img/imagenNosotros.jpg" alt="tienda de cafeteria en una esquina">
       </div>
     </div>
 
   </div>
   <!--         /* carrousel */ -->
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+    
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
         <article class="card">
           <div class="card_img">
-            <img src="./img/calzasublimada.jpg" class="card-img-top" alt="...">
+            <img src="./img/opinion1.jpg" class="card-img-top" alt="cafe expresso">
           </div>
           <div class="card-body">
-            <h5 class="card-title">$8499</h5>
-            <p class="card-text">Calza Sublimada</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <p class="card-text">Disfruta de un cafe preparado por los mejores baristas</p>
           </div>
         </article>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <article class="card">
           <div class="card_img">
-            <img src="./img/calzasublimada.jpg" class="card-img-top" alt="...">
+            <img src="./img/opinion2.jpg" class="card-img-top" alt="mujer viendo un libro">
           </div>
           <div class="card-body">
-            <h5 class="card-title">$8499</h5>
-            <p class="card-text">Calza Sublimada</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <p class="card-text">Disfruta de nuestro calido y acogador salon acopañado de las mejores vistas al lago Siena</p>
           </div>
         </article>
       </div>
       <div class="carousel-item">
         <article class="card">
           <div class="card_img">
-            <img src="./img/calzasublimada.jpg" class="card-img-top" alt="...">
+            <img src="./img/opinon3.jpg" class="card-img-top" alt="personaje con cafe">
           </div>
           <div class="card-body">
-            <h5 class="card-title">$8499</h5>
-            <p class="card-text">Calza Sublimada</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <p class="card-text">Unete a nuestro equipo de baristas!</p>
+            <a href="./pages/contactos.html" class="btn btn-primary">Contacto</a>
           </div>
         </article>
       </div>
