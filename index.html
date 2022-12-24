@@ -22,8 +22,12 @@
   <!--WOW-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <!---tipos de letras-->
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=New+Tegomin&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=New+Tegomin&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -60,63 +64,62 @@
     <img class=" animate__animated animate__slideInDown principal__foto" src="./img/imgenprincipal.jpg"
       alt="imagen cafetera">
   </section>
-  <div class="container">
-    <div class="row gy-2">
-      <div class="col-12 col-md-12">
-        <form class="indexFormulario">
-          <fieldset>
-            <legend class="indexFormulario__legend">reservas de work and coffe</legend>
-            <div class="indexFormulario__nombre"> 
-              <label for="nombre">Nombre</label>
-              <input type="text" name="nombre">
-            </div>
-            <div class="indexFormulario__apellido">
-              <label for="apellido">Apellido</label>
-              <input type="text" name="apellido">
-            </div>
-            <div class="indexFormulario__email">
-             <label for="email">e - mail</label>
-             <input type="email" name="email">
-            </div>
-            <div class="indexFormulario__calendario">
-              <label class="fieldset_fecha" for="data">Seleccione dia y horario</label>
-              <input type="datetime-local" name="data">
-            </div>
-            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-              <input type="submit" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-              <label class="btn btn-outline-dark btn-light" for="btnradio1">Enviar</label>
-            
-              <input type="reset" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-              <label class="btn btn-outline-dark btn-light" for="btnradio2">Limpiar</label>
-          
-          </fieldset>
+  <section class="container">
+    <div id="gridInfo">
+      <fieldset class="indexFormulario">
+        <legend class="indexformulario__titulo">Work and coffe</legend>
+      <form class="indexFormulario__form"  action="./index.html" method="post">
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre"
+                  required>
+          </div>
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido"
+                  required>
+          </div>
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+              <input type="number" class="form-control" id="exampleFormControlInput1" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Seleccione dia y horario</label>
+            <input type="datetime-local" class="form-control" id="exampleFormControlInput1" required>
+        </div>
+          <div class="mb-3">
+              <input type="submit" class="indexFormulario__click btn btn-success form-control" id="exampleFormControlInput1">
+              <input type="reset" class="indexFormulario__click btn btn-success  form-control" id="exampleFormControlInput1">
+          </div>
+      </form>
+    </fieldset>
+      <div class=" animate__animated animate__fadeInLeftBig imagenHorarios">
+        <img class="imagenHorarios__imagen" src="./img/rain-gde57367f4_1920.jpg"
+          alt="imagen sillas al costado del rio ">
       </div>
-    </div>
-    <div class="row informacion gy-2">
-      <div class=" animate__animated animate__fadeInLeftBig col-12 col-md-6">
-        <img class="informacion__imagen" src="./img/rain-gde57367f4_1920.jpg" alt="imagen sillas al costado del rio ">
+      <div class="animate__animated animate__animated animate__fadeInRightBig  horarios">
+        <h2 class="horarios__titulo">Horario de Apertura y Cierre </h2>
+        <p class="horarios__parrafo">Los esperamos en los siguienes horarios </p>
+        <p class="horarios__parrafo">Lunes a viernes de 8hs a 22hs </p>
+        <p class="horarios__parrafo">sabados y domingos de 9hs a 17hs</p>
       </div>
-      <div class="animate__animated animate__animated animate__fadeInRightBig  col-12 col-md-6">
-        <h2 class="informacion__titulo">Horario de Apertura y Cierre </h2>
-                <p class="informacion__parrafo">Los esperamos en los siguienes horarios </p>
-                <p class="informacion__parrafo">Lunes a viernes de 8hs a 22hs </p>
-                <p class="informacion__parrafo">sabados y domingos de 9hs a 17hs</p>
-      </div>
-    </div>
-    <div class="nosotros row gy-2">
-      <div class=" animate__animated animate__fadeInLeftBig  col-12 col-md-6">
+      <div class=" animate__animated animate__fadeInLeftBig  nosotros">
         <h2 class="nosotros__titulo">Nosotros</h2>
-        <p class="nosotros__parrafo">Nuestra pequeña cafeteria nacio por el año 1900 en una esquina parisiana, en donde los primeros dueños llenos de vigor y aventura consigieron ergir una de las primeras cafeterias de Paris con especialidades de la propia italia acompañados de un cafe turno, los invitamos a sentarse en nuestras mesas y disfrutar de una rica pastelera acompañados de un libro o porque no de un ser querido mientras observan el hermoso lago siena </p>
+        <p class="nosotros__parrafo">Nuestra pequeña cafeteria nacio por el año 1900 en una esquina parisiana, en donde
+          los primeros dueños llenos de vigor y aventura consigieron ergir una de las primeras cafeterias de Paris con
+          especialidades de la propia italia acompañados de un cafe turno, los invitamos a sentarse en nuestras mesas y
+          disfrutar de una rica pastelera acompañados de un libro o porque no de un ser querido mientras observan el
+          hermoso lago siena </p>
       </div>
-      <div class=" animate__animated animate__animated animate__fadeInRightBig col-12 col-md-6">
-        <img class="informacion__imagen" src="./img/imagenNosotros.jpg" alt="tienda de cafeteria en una esquina">
+      <div class=" animate__animated animate__animated animate__fadeInRightBig imagenNosotros">
+        <img class="imagenNosotros__imagen" src="./img/imagenNosotros.jpg" alt="tienda de cafeteria en una esquina">
       </div>
-    </div>
 
-  </div>
+    </div>
+  </section>
   <!--         /* carrousel */ -->
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    
+
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
         <article class="card">
@@ -134,7 +137,8 @@
             <img src="./img/opinion2.jpg" class="card-img-top" alt="mujer viendo un libro">
           </div>
           <div class="card-body">
-            <p class="card-text">Disfruta de nuestro calido y acogador salon acopañado de las mejores vistas al lago Siena</p>
+            <p class="card-text">Disfruta de nuestro calido y acogador salon acopañado de las mejores vistas al lago
+              Siena</p>
           </div>
         </article>
       </div>

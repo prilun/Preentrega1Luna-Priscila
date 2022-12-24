@@ -1,15 +1,16 @@
 @import "./componentes/reset";
 @import "./componentes/variables";
 @import "./componentes/flex";
-@import "./componentes/estilos/navbar";
+@import "./componentes/navbar";
+@import "./componentes/grid";
 
 /*paginas*/
 
-@import "./componentes/estilos/index";
-@import "./componentes/estilos/menu";
-@import "./componentes/estilos/reservas";
-@import "./componentes/estilos/eventos";
-@import "./componentes/estilos/contactos";
+@import "./estilos/index";
+@import "./estilos/menu";
+@import "./estilos/reservas";
+@import "./estilos/eventos";
+@import "./estilos/contactos";
 
 /*queri*/
 @import "./componentes/queri";

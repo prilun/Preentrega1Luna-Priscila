@@ -8,6 +8,34 @@
   color: white;
 }
 
+#gridInfo {
+  display: grid;
+  grid-template-areas: "indexFormulario   imagenWork" " imagenHorarios     horarios" "nosotros      imagenNosotros";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  gap: 3rem;
+}
+
+.indexFormulario {
+  grid-area: indexFormulario;
+}
+
+.horarios {
+  grid-area: horarios;
+}
+
+.imagenHorarios {
+  grid-area: imagenHorarios;
+}
+
+.imagenNosotros {
+  grid-area: imagenNosotros;
+}
+
+.nosotros {
+  grid-area: nosotros;
+}
+
 /*paginas*/
 .principal__foto {
   width: 100%;
@@ -15,33 +43,36 @@
 }
 
 .indexFormulario {
+  border: 2px solid #964905;
   margin-top: 4rem;
   margin-bottom: 4rem;
   text-align: center;
   font-family: "New Tegomin", serif;
 }
-.indexFormulario__legend {
+.indexFormulario__titulo {
   text-transform: uppercase;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(165, 42, 42, 0.304);
 }
-.indexFormulario__nombre, .indexFormulario__calendario, .indexFormulario__email, .indexFormulario__apellido {
-  font-size: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.indexFormulario__click {
+  margin: 4px;
 }
-.informacion__imagen {
+.indexFormulario__form {
+  padding: 1rem;
+}
+
+.imagenHorarios__imagen {
   height: 100%;
   width: 100%;
   border-radius: 4px;
   border: 2px solid black;
 }
-.informacion__titulo, .nosotros__titulo {
+
+.horarios__titulo, .nosotros__titulo {
   font-family: "New Tegomin", serif;
   text-align: center;
 }
-.informacion__parrafo {
+.horarios__parrafo {
   font-family: "Ibarra Real Nova", serif;
   font-size: 1rem;
   text-align: center;
@@ -56,6 +87,13 @@
   font-family: "Ibarra Real Nova", serif;
   text-align: center;
   font-weight: bold;
+}
+
+.imagenNosotros__imagen {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid black;
 }
 
 .carousel img {
