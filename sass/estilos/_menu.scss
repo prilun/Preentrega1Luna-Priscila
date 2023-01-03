@@ -1,12 +1,5 @@
 
 
-.fondoMenu{
-    background-image: url(../img/imagenmenu.jpg);
-    background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
-  }
-
   
 .Menu{
  
@@ -14,14 +7,20 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 3rem;
-    background-color: rgba(127, 255, 212, 0.249);
+&__categorias{
+  padding: 2rem;
+  margin: 2rem;
+  border-right: 2px solid rgba(201, 127, 8, 0.782);
+  &__imagen{
+    height: 5rem;
+    width: 5rem;
+    margin: 2rem;
+    text-align: center;
+    margin-left: 4rem;
+  }
+}
   }
 
-
-  .menuFooter{
-    background-color: white;
-  }
-  
   .header_titulo{
     margin-top: 5rem;
   }

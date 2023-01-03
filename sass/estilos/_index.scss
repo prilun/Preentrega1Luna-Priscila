@@ -68,32 +68,7 @@
   border: 2px solid black;
   }
 }
-.carousel img{
- height: 14rem;
-}
-
-
-  .texto{
-    background-color: black;
-    border-radius: 4px;
-  }
-  
-  .parrafo{
     
-    padding-top: 5rem;
-    text-align: center;
-    font-size: 1.5rem;
-    height: 100%;
-  }
-  
- 
-  
-  .informacion{
-    margin-top: 4rem;
-    
-  }
-  
-  
   /*carousel*/
   
   .carousel{
@@ -103,22 +78,18 @@
   
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
-    height: 360px;
-    /* margin-top: 10px; */
+    width: 400px;
+    height: 500px;
     margin-bottom: 10px;
+     &__img__tamaño{
+      height: 25rem;
+      width: 100%;
+     }
+     &__text{
+      font-family: 'Ibarra Real Nova', serif;
+     text-align: center;
+     font-weight: bold;
+     }
   }
   
-  
-  
-  body{
-    min-height: 100%;
-  }
-  
-  
-
-  .parrafo{
-    font-family: 'Ibarra Real Nova', serif;
-  }
-
  
